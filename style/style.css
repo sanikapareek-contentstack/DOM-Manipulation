@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(251, 250, 250);
 }
+
 .container{
     display: block;
     width:max-content;

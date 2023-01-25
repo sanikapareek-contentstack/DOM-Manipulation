@@ -7,11 +7,6 @@ function counterCall(){
 }
 
 function timerCall(){
-    if(document.getElementsByClassName("counterContainer").length>0){
-        const element=getElementsByClassName("counterContainer");
-        element.remove();
-   
-    }
     const timer=createTimer();
     rootDiv=document.getElementById("root");
     rootDiv.appendChild(timer);

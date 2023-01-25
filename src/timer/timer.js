@@ -67,6 +67,7 @@ function createTimer(){
     const timerContainer=document.createElement("div");
     const timerHeading=document.createElement("h1");
     const timerPara=document.createElement("p");
+    const btns=document.createElement("div");
     const startButton=document.createElement("button");
     const pauseButton=document.createElement("button");
     const resetButton=document.createElement("button")
@@ -78,6 +79,7 @@ function createTimer(){
     startButton.id="startBtn";
     pauseButton.id="pauseBtn";
     resetButton.id="stopBtn";
+    btns.className="btns";
 
     //adding text
     timerHeading.innerText="Timer";
@@ -95,9 +97,10 @@ function createTimer(){
     //appending child
     timerContainer.appendChild(timerHeading);
     timerContainer.appendChild(timerPara);
-    timerContainer.appendChild(startButton);
-    timerContainer.appendChild(pauseButton);
-    timerContainer.appendChild(resetButton);
+    timerContainer.appendChild(btns);
+    btns.appendChild(startButton);
+    btns.appendChild(pauseButton);
+    btns.appendChild(resetButton);
     rootDiv=document.getElementById("root");
     rootDiv.appendChild(timerContainer);
 

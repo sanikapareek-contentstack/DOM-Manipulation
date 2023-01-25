@@ -13,7 +13,7 @@ function decrement(){
 
 function updateCounter(){
     const countValue=document.getElementById("countValue");
-    countValue.innerText=`count : ${count}`
+    countValue.innerText=`Count : ${count}`
 }
 
 function createCounter(){
@@ -21,19 +21,22 @@ function createCounter(){
     const counterContainer=document.createElement("div");
     const counterHeading=document.createElement("h1");
     const counterPara=document.createElement("p");
+    const btns=document.createElement("div");
     const incrementButton=document.createElement("button");
     const decrementButton=document.createElement("button");
 
     //assigning id and classes
     counterContainer.classList.add="counterContainer";
+    counterContainer.className="counterContainer";
     counterHeading.classList.add="counterHeading";
     counterPara.id="countValue";
     incrementButton.id="increment";
     decrementButton.id="decrement";
+    btns.className="counterBtns";
 
     //adding text to elements
     counterHeading.innerText="Counter";
-    counterPara.innerText=`count : ${count}`;
+    counterPara.innerText=`Count : ${count}`;
     incrementButton.innerText="+";
     decrementButton.innerText="-";
 
@@ -45,8 +48,9 @@ function createCounter(){
     //appending child
     counterContainer.appendChild(counterHeading);
     counterContainer.appendChild(counterPara);
-    counterContainer.appendChild(incrementButton);
-    counterContainer.appendChild(decrementButton);
+    counterContainer.appendChild(btns)
+    btns.appendChild(incrementButton);
+    btns.appendChild(decrementButton);
      return counterContainer;
 
 
