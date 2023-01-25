@@ -7,20 +7,21 @@
     padding: 14px 20px;
     text-align: center;
     border-radius: 20px;
-    background: rgb(230, 228, 228);
+    background: rgb(245, 243, 243);
     margin-top: 100px;
 
 }
 
 .timerContainer h1,.timerBtns,p{
-    background: rgb(230, 228, 228);
+    background: rgb(245, 243, 243);
 }
 
 #startBtn,#resetBtn,#pauseBtn{
     font-size: 20px;
     padding: 3px 10px;
-    border: 2px solid black;
+    border: 1.5px solid rgb(165, 163, 163);
     border-radius: 10px;
+    background:linear-gradient(to top,#c4c5c7 0%,#dcdddf 52%,#ebebeb 100%);
 }
 
 
