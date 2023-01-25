@@ -17,6 +17,7 @@ function updateCounter(){
 }
 
 function createCounter(){
+    count=0;
     //creating elements
     const counterContainer=document.createElement("div");
     const counterHeading=document.createElement("h1");

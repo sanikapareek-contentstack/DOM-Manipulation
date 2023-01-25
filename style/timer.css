@@ -17,8 +17,9 @@
 }
 
 #startBtn,#resetBtn,#pauseBtn{
-    font-size: 20px;
-    padding: 3px 10px;
+    font-size: 1.02rem;
+    width: 75px;
+    padding: 7px 10px;
     border: 1.5px solid rgb(165, 163, 163);
     border-radius: 10px;
     background:linear-gradient(to top,#c4c5c7 0%,#dcdddf 52%,#ebebeb 100%);

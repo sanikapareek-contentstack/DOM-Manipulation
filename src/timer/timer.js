@@ -63,6 +63,12 @@ function pauseTimer(){
 }
 
 function createTimer(){
+    sec=0;
+    min=0;
+    hour=0;
+    displayHour=0;
+    displayMin=0;
+    displaySec=0;
     //creating element
     const timerContainer=document.createElement("div");
     const timerHeading=document.createElement("h1");
