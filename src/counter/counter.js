@@ -1,3 +1,4 @@
+
 let count=0;
 
 function increment(){
@@ -46,9 +47,8 @@ function createCounter(){
     counterContainer.appendChild(counterPara);
     counterContainer.appendChild(incrementButton);
     counterContainer.appendChild(decrementButton);
-    rootDiv=document.getElementById("root");
-    rootDiv.appendChild(counterContainer);
+     return counterContainer;
+
 
 }
 
-createCounter();
