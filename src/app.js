@@ -2,11 +2,11 @@
 function counterCall(){
     if(document.getElementById("counterContainer")){
         const ele=document.getElementById("counterContainer");
-        ele.style.display="none";
+        ele.remove();
     }
     if(document.getElementById("timerContainer")){
         const ele=document.getElementById("timerContainer");
-        ele.style.display="none";
+        ele.remove();
     } 
     const counter=createCounter();
     rootDiv=document.getElementById("root");
@@ -17,11 +17,11 @@ function counterCall(){
 function timerCall(){
     if(document.getElementById("counterContainer")){
         const ele=document.getElementById("counterContainer");
-        ele.style.display="none";
+        ele.remove();
     }
     if(document.getElementById("timerContainer")){
         const ele=document.getElementById("timerContainer");
-        ele.style.display="none";
+        ele.remove();
     }
     const timer=createTimer();
     rootDiv=document.getElementById("root");
@@ -47,7 +47,7 @@ function createMainPage(){
     timerButton.value="Timer";
     timerButton.name="radioBtn"
     timerLabel.innerText="Timer"
-    containerHeading.innerText="Application for Counter and Timer"
+    containerHeading.innerText="DOM Manipulation: Counter and Timer"
     
 
     //adding id and classes
