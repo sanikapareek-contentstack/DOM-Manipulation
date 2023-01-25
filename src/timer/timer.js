@@ -74,12 +74,14 @@ function createTimer(){
 
     //adding id and classes
     timerContainer.classList.add="timerContainer";
+    timerContainer.className="timerContainer";
+    timerContainer.id="timerContainer";
     timerHeading.classList.add="timerHeading";
     timerPara.id="timerValue";
     startButton.id="startBtn";
     pauseButton.id="pauseBtn";
-    resetButton.id="stopBtn";
-    btns.className="btns";
+    resetButton.id="resetBtn";
+    btns.className="timerBtns";
 
     //adding text
     timerHeading.innerText="Timer";
@@ -101,8 +103,9 @@ function createTimer(){
     btns.appendChild(startButton);
     btns.appendChild(pauseButton);
     btns.appendChild(resetButton);
-    rootDiv=document.getElementById("root");
-    rootDiv.appendChild(timerContainer);
+    
+
+    return timerContainer;
 
 }
 

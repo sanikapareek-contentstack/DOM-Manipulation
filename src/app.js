@@ -1,5 +1,13 @@
 
 function counterCall(){
+    if(document.getElementById("counterContainer")){
+        const ele=document.getElementById("counterContainer");
+        ele.style.display="none";
+    }
+    if(document.getElementById("timerContainer")){
+        const ele=document.getElementById("timerContainer");
+        ele.style.display="none";
+    } 
     const counter=createCounter();
     rootDiv=document.getElementById("root");
     rootDiv.appendChild(counter);
@@ -7,6 +15,14 @@ function counterCall(){
 }
 
 function timerCall(){
+    if(document.getElementById("counterContainer")){
+        const ele=document.getElementById("counterContainer");
+        ele.style.display="none";
+    }
+    if(document.getElementById("timerContainer")){
+        const ele=document.getElementById("timerContainer");
+        ele.style.display="none";
+    }
     const timer=createTimer();
     rootDiv=document.getElementById("root");
     rootDiv.appendChild(timer);
@@ -22,7 +38,7 @@ function createMainPage(){
     const timerButton=document.createElement("input");
     const timerLabel=document.createElement("label");
 
-    //
+    //adding type,value and name for radio and text for label
     counterButton.type="radio";
     counterButton.value="Counter";
     counterButton.name="radioBtn";

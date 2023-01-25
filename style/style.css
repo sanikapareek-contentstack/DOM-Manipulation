@@ -10,6 +10,8 @@
     height: max-content;
     margin: 50px auto;
 }
+
+
 .radioBtns{
     display: flex;
     margin-top: 50px;
@@ -19,4 +21,5 @@
 .radioBtns label{
     margin-right: 10px;
     margin-left: 5px;
+    font-size: 1.3rem;
 }

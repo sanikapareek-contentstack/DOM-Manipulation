@@ -28,6 +28,7 @@ function createCounter(){
     //assigning id and classes
     counterContainer.classList.add="counterContainer";
     counterContainer.className="counterContainer";
+    counterContainer.id="counterContainer";
     counterHeading.classList.add="counterHeading";
     counterPara.id="countValue";
     incrementButton.id="increment";
