@@ -1,5 +1,5 @@
 <h1>Counter Component</h1>
-<p>Counter component is created using DOM manipulation. On clicking on '+' button the count increments by 1 and on clicking on '-' button count decrements by 1.</p>
+<p>Counter component is created using DOM manipulation. Counter component has two button namely '+' and '-'. On clicking on '+' button the count increments by 1 and on clicking on '-' button count decrements by 1. On clicking on '+' button the count increments by 1 and on clicking on '-' button count decrements by 1.</p>
 <p>
     Functions of counter component are:
     <ul>
