@@ -1,5 +1,5 @@
 <h1>Counter Component</h1>
-<p>Counter component is created using DOM manipulation.On clicking on '+' button the count increments by 1 and on clicking on '-' button count decrements by 1.</p>
+<p>Counter component is created using DOM manipulation. On clicking on '+' button the count increments by 1 and on clicking on '-' button count decrements by 1.</p>
 <p>
     Functions of counter component are:
     <ul>
@@ -9,7 +9,5 @@
         <li>updateCounter(): To update the count value after an increment or decrement has occured.</li>
     </ul>
 </p>
-<figure>
-    <img src="./assets/counter.png">
-    <figcaption>Counter Component</figcaption>
-</figure>
+
+<img src="https://github.com/sanikapareek-contentstack/DOM-Manipulation/blob/main/assets/counter.png" raw=true alt="counter" style="height:500px;width:700px" />
