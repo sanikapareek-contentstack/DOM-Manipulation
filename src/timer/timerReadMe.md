@@ -1,5 +1,5 @@
 <h1>Timer Component</h1>
-<p>Timer component is created using DOM manipulation.Timer is of the format (hrs:mins:secs) On clicking on 'Start' button the timer will start, on clicking on 'Pause' button timer will pause and on clicking on 'Reset' button timer will reset to 00:00:00.</p>
+<p>Timer component is created using DOM manipulation. Timer is of the format (hrs:mins:secs). Timer has three button namely 'Start', 'Pause' and 'Reset'. On clicking on 'Start' button the timer will start, on clicking on 'Pause' button timer will pause and on clicking on 'Reset' button timer will reset to 00:00:00.</p>
 <p>
     Functions of counter component are:
     <ul>
