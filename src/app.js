@@ -61,8 +61,8 @@ function createMainPage(){
 
 
     //adding event listener
-    counterButton.addEventListener('click',counterCall);
-    timerButton.addEventListener('click',timerCall);
+    counterButton.addEventListener('change',counterCall);
+    timerButton.addEventListener('change',timerCall);
 
     //appending child
     container.appendChild(containerHeading);
