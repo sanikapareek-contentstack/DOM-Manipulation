@@ -31,5 +31,14 @@
   </ul>  
 </ul>
 </p>
+<p>
+<h3>Counter Component</h3>
+Counter component has two button namely '+' and '-'. On clicking on '+' button the count increments by 1 and on clicking on '-' button count decrements by 1.
+</p>
+
+<p>
+<h3>Timer Component</h3>
+Timer is of the format (hrs:mins:secs). Timer component has three button namely 'Start', 'Pause' and 'Reset'. On clicking on 'Start' button the timer will start, on clicking on 'Pause' button timer will pause and on clicking on 'Reset' button timer will reset to 00:00:00.
+</p>
 
 
