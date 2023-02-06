@@ -9,11 +9,11 @@ let timeoutId=null;
 //to calculate sec, min and hour
 function timer(){
     sec++;
-    if(sec/60==1){
+    if(sec/60===1){
         min++;
         sec=0;
     }
-    if(min/60==1){
+    if(min/60===1){
         hour++;
         min=0;
     } 
@@ -41,12 +41,16 @@ function timer(){
 
 //start timer
 function startTimer(){
-    timeoutId=setInterval(timer,1000);
+    if(timeoutId!==null){
+        return;
+    }
+    timeoutId=setInterval(timer,100);
 }
 
 //reset timer
 function resetTimer(){
     clearInterval(timeoutId);
+    timeoutId=null;
     sec=0;
     min=0;
     hour=0;
@@ -60,6 +64,7 @@ function resetTimer(){
 //pause Timer
 function pauseTimer(){
     clearInterval(timeoutId);
+    timeoutId=null;
 }
 
 function createTimer(){
@@ -79,10 +84,9 @@ function createTimer(){
     const resetButton=document.createElement("button")
 
     //adding id and classes
-    timerContainer.classList.add="timerContainer";
-    timerContainer.className="timerContainer";
+    timerContainer.classList.add("timerContainer");
     timerContainer.id="timerContainer";
-    timerHeading.classList.add="timerHeading";
+    timerHeading.classList.add("timerHeading");
     timerPara.id="timerValue";
     startButton.id="startBtn";
     pauseButton.id="pauseBtn";

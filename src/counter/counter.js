@@ -27,10 +27,9 @@ function createCounter(){
     const decrementButton=document.createElement("button");
 
     //assigning id and classes
-    counterContainer.classList.add="counterContainer";
-    counterContainer.className="counterContainer";
+    counterContainer.classList.add("counterContainer");
     counterContainer.id="counterContainer";
-    counterHeading.classList.add="counterHeading";
+    counterHeading.classList.add("counterHeading");
     counterPara.id="countValue";
     incrementButton.id="increment";
     decrementButton.id="decrement";

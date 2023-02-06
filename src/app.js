@@ -51,7 +51,7 @@ function createMainPage(){
     
 
     //adding id and classes
-    container.classList.add= "container";
+    container.classList.add("container");
     container.className="container";
     radioBtns.className="radioBtns";
     counterButton.id="counterBtn";
@@ -61,8 +61,8 @@ function createMainPage(){
 
 
     //adding event listener
-    counterButton.addEventListener('change',counterCall);
-    timerButton.addEventListener('change',timerCall);
+    counterButton.addEventListener('click',counterCall);
+    timerButton.addEventListener('click',timerCall);
 
     //appending child
     container.appendChild(containerHeading);
