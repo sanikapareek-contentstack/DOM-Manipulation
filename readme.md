@@ -1,5 +1,6 @@
 <h1>DOM Manipulation: Counter and Timer</h1>
 <h2>Creating a simple timer and counter application using DOM manipulation techniques.</h2>
+<p>Live Link of Website: https://sanikapareek-contentstack.github.io/DOM-Manipulation/</p>
 <p>The folder structure is:
 <ul>
   <li>index.html</li>
